@@ -136,6 +136,8 @@ decimal.addEventListener("click", function(event){
 ac.addEventListener("click", function(){
 	input[0].value="";
 	decimalCount = 0;
+	operand1 = "";
+	operand2 = "";
 });
 
 sign.addEventListener("click", function(){
